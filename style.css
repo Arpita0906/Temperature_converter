@@ -1,0 +1,54 @@
+body{
+	background-image: url(temperature.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+input,select{
+	width:40%;
+}
+label, input,select {
+	margin: 0.9rem 1.2rem;
+}
+input{
+	min-height: 2rem;
+}
+label{
+	padding: 10px;
+font-size: 1.3rem;
+color: rgb(0, 255, 136);
+}
+.form{
+	display: grid;
+    grid-template-columns: auto auto;
+}
+.container{
+    background-color: rgba(189, 201, 31, 0.324);
+  position: absolute;
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-left: 34%;
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--transparent);
+  border-radius: 16px;
+  width: 40%;
+  height: 50%;
+}
+.sbutton{
+    padding-left: 30%;
+    padding-top: 1rem;
+}
+.sbutton input{
+    background-color: #0d3426;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.result{
+    display: grid;
+    grid-template-columns: 6rem 6rem;
+}

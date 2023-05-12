@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+	<div class="container">
+        
+		<h1 style="color: rgb(128, 255, 0); padding-left: 5rem;">Temperature Converter</h1>
+		<div class="form">
+            <div class="forms">
+			<label for="degree">Degrees:</label><br>
+			<input type="number" id="degree" placeholder="Enter temperature">
+			
+            </div>  <div>
+                <label for="type">Type:</label>    <br>
+            <select name="type" id="type">
+        <option value="cl">Celcius</option>
+        <option value="fh">Fahrenheit</option>
+            </select>
+        </div></div>
+            <div class="result">
+                <h2 style="color: rgb(29, 19, 23); padding-left: 5rem;">Result:</h2>
+                <h3 style="color: rgb(22, 3, 41); padding-left: 5rem;" id="result"></h3>
+            </div>
+            <div class="sbutton">
+            <input type="button" id="btn" value="Convert" onclick="convert()" >
+        </div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
